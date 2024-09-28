@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Fjalla One ,sans-serif;
+
+}
+body{
+    background-color: rgb(108, 159, 225);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calcul {
+ width: 80%;
+ height: 80vh;
+ background-color: rgb(255, 255, 255,0.1);
+ border-radius: 20px;
+ 
+ 
+
+ }
+#ttheme{
+    padding-right: 4%;
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    font-size: 10px;
+
+}
+
+#calc {
+  padding: 2% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#calcul #text  {
+ 
+    margin: 20px auto;
+    
+    padding-right: 20px;
+    width: 90%;
+   height:15vh;
+   background:hsl(246, 92%, 34%, 0.5);
+    border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+
+}
+#calcul #button {
+margin:  auto;
+height: 50%;
+width: 90%;
+background: hsl(246, 92%, 34%, 0.5);
+border-radius: 20px;
+
+}
+#button {
+
+    padding: 5px ;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    gap:5px ;
+   
+}
+
+
+.btn1 {
+    border-radius: 10px;
+    font-size: 25px;
+     
+ }
+
+
+.btn2 {
+    color: hsl(180, 100%, 50%);  
+    background: hsl(238, 51%, 64%);
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.btn3 {
+    border-radius: 10px;
+    background: red;
+    grid-column: 3/5;   
+    color: hsl(180, 100%, 50%);  
+    font-size: 25px;
+
+ }
+ 
+ #reset {
+   grid-column: 1/3; 
+ }
+ 
+ 
